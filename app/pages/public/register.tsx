@@ -38,8 +38,8 @@ class RegisterPage extends React.Component<Props, State> {
     return (
       <div style={{ textAlign: 'center', margin: '0 20px' }}>
         <Head>
-          <title>Register at Async</title>
-          <meta name="description" content="Signup page for Async." />
+          <title>Register at Beam</title>
+          <meta name="description" content="Signup page for Beam." />
         </Head>
         <br />
         <h1
@@ -48,7 +48,7 @@ class RegisterPage extends React.Component<Props, State> {
             fontWeight: 400,
           }}
         >
-          Register at Async
+          Register at Beam
         </h1>
         <Avatar
           src="https://private-api-bucket-for-async.s3.amazonaws.com/team-fjn8q2oftfxpfqhk65lsn4v6uyjbzayt/avatars/user-6116878196f2ac7b58b5f778/z7c3tm4mmpin5xbg1smo/async.png"
@@ -89,7 +89,7 @@ class RegisterPage extends React.Component<Props, State> {
                 opacity: 0.75,
               }}
             >
-              Only use this page if you do not have an Async account and would like to create your
+              Only use this page if you do not have a Beam account and would like to create your
               own team.
             </li>
             <li
@@ -109,7 +109,7 @@ class RegisterPage extends React.Component<Props, State> {
                 marginBottom: '10px',
               }}
             >
-              If you were invited to join a team at Async, please use the invitation link from the
+              If you were invited to join a team at Beam, please use the invitation link from the
               invitation email you received.
             </li>
             <li
@@ -130,7 +130,7 @@ class RegisterPage extends React.Component<Props, State> {
             disabled={this.state.disabled}
             style={{ margin: '10px' }}
           >
-            Register at Async
+            Register at Beam
           </Button>
         </form>
         <p />

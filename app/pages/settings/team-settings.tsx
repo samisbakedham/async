@@ -800,7 +800,7 @@ class TeamSettingsPage extends React.Component<Props, State> {
 
     if (currentUser.teamsForUser.length < 2) {
       notify(
-        `You cannot delete your only team from your account. If you like to delete your Async account - please contact us.`,
+        `You cannot delete your only team from your account. If you like to delete your Beam account - please contact us.`,
       );
       return;
     }

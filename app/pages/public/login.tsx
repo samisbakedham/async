@@ -61,7 +61,7 @@ class Login extends React.Component<Props> {
     return (
       <div style={{ textAlign: 'center', margin: '0 20px' }}>
         <Head>
-          <title>Log in to Async</title>
+          <title>Log in to Beam</title>
         </Head>
         <br />
         {teamId && teamName && teamLogoUrl ? (
@@ -103,7 +103,7 @@ class Login extends React.Component<Props> {
                   fontWeight: 400,
                 }}
               >
-                Log in to Async
+                Log in to Beam
               </h1>
             )}
           </>

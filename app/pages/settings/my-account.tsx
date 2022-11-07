@@ -148,7 +148,7 @@ class MyAccountPage extends React.Component<MyProps, MyState> {
               >
                 <h1>Settings {'>'} My Account</h1>
                 <div style={{ padding: '20px 10px' }}>
-                  You created your account at Async on{' '}
+                  You created your account at Beam on{' '}
                   <b>{moment(currentUser.accountCreationDate).format('MMM Do YYYY')}</b> using email
                   address <b>{currentUser.email}</b>. <p /> You cannot change your email address but
                   you can request us to delete your account.
@@ -229,7 +229,7 @@ class MyAccountPage extends React.Component<MyProps, MyState> {
                             }}
                           >
                             Select team to be default. Default team is automatically loaded when you
-                            log in to your Async account.
+                            log in to your Beam account.
                           </span>
                         </div>
                       </TableCell>

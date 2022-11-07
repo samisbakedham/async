@@ -602,8 +602,8 @@ class User {
     });
   }
 
-  // Async Cloud will eventually need Account deletion
-  // Async Cloud will eventually need automatic marking of accounts that were inactive for 3 months
+  // Beam Cloud will eventually need Account deletion
+  // Beam Cloud will eventually need automatic marking of accounts that were inactive for 3 months
   public loginStoreMethod() {
     this.isLoggedIn = true;
   }

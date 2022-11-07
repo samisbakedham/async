@@ -163,7 +163,7 @@ class MyBillingPage extends React.Component<Props, State> {
                   <li>
                     {currentUser.isSubscriptionActiveForAccount ? (
                       <span>
-                        You are paying customer at Async. You subscribed to a paid plan on{' '}
+                        You are paying customer at Beam. You subscribed to a paid plan on{' '}
                         <b>{subscriptionDate}</b>.Your charge will occur on <b>{billingDay} day</b>{' '}
                         of each month unless you cancel your subscription or you unsubscribe
                         automatically due to failed payment. Failed payment can occur when your card
@@ -171,7 +171,7 @@ class MyBillingPage extends React.Component<Props, State> {
                       </span>
                     ) : (
                       <span>
-                        You are <b>not</b> paying customer at Async.
+                        You are <b>not</b> paying customer at Beam.
                         {canceledDate && cancelDate ? (
                           <span>
                             {' '}
@@ -214,7 +214,7 @@ class MyBillingPage extends React.Component<Props, State> {
                       : `${numberOfUniqueActiveTeamMembers} person`}{' '}
                     in your team.
                   </li>
-                  <li>Async costs $5 per person per month.</li>
+                  <li>Beam costs $5 per person per month.</li>
                   <li>You can cancel your subscription at any time.</li>
                 </div>
 
@@ -318,7 +318,7 @@ class MyBillingPage extends React.Component<Props, State> {
                               opacity: '75%',
                             }}
                           >
-                            This card information is used for a paid subscription at Async.
+                            This card information is used for a paid subscription at Beam.
                           </span>
                         </div>
                       </TableCell>
@@ -559,7 +559,7 @@ class MyBillingPage extends React.Component<Props, State> {
     try {
       await currentUser.reSubscribeTeamStoreMethod(this.props.teamId);
 
-      notify('You re-subscribed to a paid plan at Async.');
+      notify('You re-subscribed to a paid plan at Beam.');
     } catch (err) {
       notify(err);
     } finally {

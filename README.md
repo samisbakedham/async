@@ -5,15 +5,15 @@ Support Ukraine: [link 1](https://bank.gov.ua/en/news/all/natsionalniy-bank-vidk
 ------------
 
 
-## Async
+## Beam
 
 Open source SaaS web app.
 
-Async's main features are: (1) Chat for real-time, synchronous communication, (2) Discussions for asynchronous communication, (3) All communication (chats + discussions) can be organized by team.
+Beam's main features are: (1) Chat for real-time, synchronous communication, (2) Discussions for asynchronous communication, (3) All communication (chats + discussions) can be organized by team.
 
-Async was built from our popular open source [SaaS boilerplate](https://github.com/async-labs/saas). We built Async for communication within our internal team and with our clients from custom dev business. By separating synchronous (urgent) vs. asynchronous (non-urgent) conversations, we minimized distractions while working on big tasks while still reacting to urgent requests.
+Beam was built from our popular open source [SaaS boilerplate](https://github.com/async-labs/saas). We built Beam for communication within our internal team and with our clients from custom dev business. By separating synchronous (urgent) vs. asynchronous (non-urgent) conversations, we minimized distractions while working on big tasks while still reacting to urgent requests.
 
-You can use Async as a self-hosted communication web app for your team. You can also use Async as a starting point for building a more complex SaaS web application.
+You can use Beam as a self-hosted communication web app for your team. You can also use Beam as a starting point for building a more complex SaaS web application.
 
 
 ## Live demo:
@@ -81,7 +81,7 @@ You can use Async as a self-hosted communication web app for your team. You can 
   MONGO_URL=
   SESSION_NAME=
   SESSION_SECRET=
-  
+
   # Used in api/server/aws-s3.ts and api/server/aws-ses.ts
   AWS_REGION=
   AWS_ACCESSKEYID=
@@ -93,14 +93,14 @@ You can use Async as a self-hosted communication web app for your team. You can 
 
   ----------
   # All env variables above this line are required for successful user signup
-  
+
   # Used in api/server/stripe.ts
   STRIPE_TEST_SECRET_KEY=
   STRIPE_LIVE_SECRET_KEY=
   STRIPE_TEST_PRICE_ID=
   STRIPE_LIVE_PRICE_ID=
   STRIPE_LIVE_ENDPOINT_SECRET=
-  
+
   # Optionally determine the URL
   URL_APP="https://localhost:3000"
   PRODUCTION_URL_APP="https://1.async-await.com"
@@ -111,9 +111,9 @@ You can use Async as a self-hosted communication web app for your team. You can 
   ENCRYPTION_KEY=
 
   ```
-  
+
   - Your `.env` file file _must_ have values for the `required` variables. To use all features and third-party integrations, also add the `optional` variables.
-  
+
   - IMPORTANT: use your values for `PRODUCTION_URL_APP` and `PRODUCTION_API_SERVER_ENDPOINT`. These are values for domain name that you own.
 
   - IMPORTANT: The above environmental variables are available on the server only. You should add your `.env` file to `.gitignore` inside the `api` folder so that your secret keys are not stored on a remote Github repo.
@@ -143,14 +143,14 @@ You can use Async as a self-hosted communication web app for your team. You can 
 
     NEXT_PUBLIC_STRIPE_TEST_PUBLISHABLEKEY="pk_test_xxxxxxxxxxxxxxx"
     NEXT_PUBLIC_STRIPE_LIVE_PUBLISHABLEKEY="pk_live_xxxxxxxxxxxxxxx"
-    
+
     NEXT_PUBLIC_API_GATEWAY_ENDPOINT=
     NEXT_PUBLIC_ENCRYPTION_KEY_FOR_EXTERNAL_SERVICES=
 
     NEXT_TELEMETRY_DISABLED=1
-    
+
   ```
-  
+
   - IMPORTANT: use your values for `NEXT_PUBLIC_PRODUCTION_URL_APP` and `NEXT_PUBLIC_PRODUCTION_API_SERVER_ENDPOINT`. These are values for domain name that you own.
 
   - To get `NEXT_PUBLIC_STRIPE_TEST_PUBLISHABLEKEY`, go to your Stripe dashboard, click `Developers`, then click `API keys`.
@@ -259,7 +259,7 @@ Want to support this project? Consider buying our [books](https://builderbook.or
 
 You can contact us at team@async-labs.com.
 
-If you are interested in working with us, check out [Async Labs](https://async-labs.com/).
+If you are interested in working with us, check out [Beam Labs](https://async-labs.com/).
 
 
 ## License

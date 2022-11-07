@@ -253,7 +253,7 @@ class Team {
             );
           } else {
             notify(
-              `The current team '${teamToDelete.teamName}' was deleted by its team leader. Logging out of Async...`,
+              `The current team '${teamToDelete.teamName}' was deleted by its team leader. Logging out of Beam...`,
             );
 
             Router.push(`${API_SERVER_ENDPOINT}/logout`, `${API_SERVER_ENDPOINT}/logout`);

@@ -61,7 +61,7 @@ class LoginForm extends React.PureComponent<Props, State> {
               opacity: 0.75,
             }}
           >
-            Only existing users of Async can use this page.
+            Only existing users of Beam can use this page.
           </li>
           <li
             style={{
@@ -70,7 +70,7 @@ class LoginForm extends React.PureComponent<Props, State> {
               margin: '10px 0px',
             }}
           >
-            If you do not have an Async account and you would like to create your own team, please
+            If you do not have an Beam account and you would like to create your own team, please
             use the <Link href="/register">Register page</Link>.
           </li>
           <li
@@ -80,7 +80,7 @@ class LoginForm extends React.PureComponent<Props, State> {
               marginBottom: '10px',
             }}
           >
-            If you are invited to join a team at Async, please use the invitation link from your
+            If you are invited to join a team at Beam, please use the invitation link from your
             invitation email.
           </li>
           <li
